@@ -3,18 +3,13 @@ train: train/images
 val: valid/images
 
 names:
-  0: sofa
-  1: refrigerator
-  2: bed
-  3: 
-  4: 
-  5: 
-  6: 
-  7:  
-  9: 
-  10: 
-  11: 
-  12: 
-  13: 
-  14: 
-  15: 
+  0: bab-sang
+  1: seo-rap-jang
+  2: sofa
+  3: chair
+  4: jang-long
+  5: desk
+  6: hwa-jang-dae
+  7: bed
+  8: bicycle
+  9: hang-a-ri

@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 def train_model(): 
-    model = YOLO('yolov8s-seg.pt')
+    model = YOLO('yolov8s.pt')
 
     results = model.train(
         data='./data/data.yaml',  # 데이터셋 경로
