@@ -1,6 +1,6 @@
 path: C:/Users/admin/Desktop/dataset
-train: train/images
-val: valid/images
+train: train/images_balanced
+val: val/images_final
 
 names:
   0: bab-sang

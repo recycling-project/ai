@@ -4,13 +4,15 @@ def train_model():
     model = YOLO('yolov8s.pt')
 
     results = model.train(
-        data='./data/data.yaml',  # 데이터셋 경로
+        data='C:/Program Files (x86)/__DuFrump__/DuFrump_산대특_과정/07_Final_Projects/Project02/recycling/ai/data/data.yaml',
         epochs=150,
-        imgsz=640,
-        batch=32,
+        imgsz=416,
+        batch=16,
+        patience=30,
+        workers=4, 
         project='eco_scan',
         name='eco_scan_weight',
-        device=0,
+        device='cpu',
         verbose=True, 
         exist_ok=True,
         iou=0.5
